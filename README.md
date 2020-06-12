@@ -5,4 +5,4 @@
 asdfasdf
 
 
-MARC ISCH EH COOL
+Mini Schöster isch schuld...
