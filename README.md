@@ -1,8 +1,3 @@
 # M300
 
-
-
-asdfasdf
-
-
-Mini Schöster isch schuld...
+Mein Repository
