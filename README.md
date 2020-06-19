@@ -5,4 +5,6 @@ In diesem Repository dokumentiere und erkläre ich meinen Lernfortschritt und di
 ## Virtualisierung
 Mithilfe der Virtualisierung kann man die eigene IT-Infrastruktur vereinfachen und mit weniger, mehr erreichen. Durch die Virtualisierun betreibt man seine Anwendungen auf weniger physischen Servern. Jede Anwendung und ihr Betriebssystem laufen dabei in einer VM.
 
-## Linux
+## Vagrant
+Vagrant ist eine freie Ruby-Anwendung zum Erstellen und Verwalten virtueller Maschinen.
+
