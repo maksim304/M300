@@ -11,10 +11,12 @@ Vagrant ist eine freie Ruby-Anwendung zum Erstellen und Verwalten virtueller Mas
 ### Dies sind die wichtigsten Vagrant Befehlre
 | Befehl                    | Beschreibung                                                      |
 | ------------------------- | ----------------------------------------------------------------- | 
-| vagrant init            | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile |
+| vagrant init            | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt ein Vagrantfile (falls nicht vorhanden) |
 | vagrant up              |  Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile |
 | vagrant ssh             | Baut eine SSH-Verbindung zur gewünschten VM auf                   |
 | vagrant status          | Zeigt den aktuellen Status der VM an                              |
 | vagrant port            | Zeigt die Weitergeleiteten Ports der VM an                        |
 | vagrant halt            | Stoppt die laufende Virtuelle Maschine                            |
 | vagrant destroy         | Stoppt die Virtuelle Maschine und zerstört sie.                   |
+
+## Markdown
