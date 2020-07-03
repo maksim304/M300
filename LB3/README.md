@@ -26,4 +26,4 @@ Die Containerisierung mit der frei verfügbaren Software bietet zahlreiche Vorte
 
 * die gute Skalierbarkeit durch die Nutzung vieler weiterer Container,
 * die einfache Verwaltung vieler Container über Orchestrierungs-Tools wie Kubernetes,
-* das schnelles Starten von Containern.
+* das schnelles Starten von Containern. 
