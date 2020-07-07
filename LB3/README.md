@@ -3,7 +3,7 @@
 Containerisierung erlaubt es ebenfalls auf eine Maschine mehrere unabhängige Kontexte zu haben, in denen Applikationen laufen können. Im Gegensatz zur Virtualisierung ist dieser Ansatz leichtgewichtiger, weil nicht für jeden Kontext ein vollständiges Betriebssystem zur Verfügung gestellt wird. Anstelle dessen wird das vorhandene Betriebssystem über geschickte Dateisystem-Schichten unterschiedlich konfiguriert.
 
 
-[](https://github.com/maksim304/M300/blob/master/LB3/img/containerisierung.png)
+![](https://github.com/maksim304/M300/blob/master/LB3/img/containerisierung.png)
 
 ## Vorteile
 
