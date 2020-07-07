@@ -19,3 +19,5 @@ Nachdem ich diese zwei command ausgeführt habe, musste ich auf diesen Link http
 
 Ob alles funktioniert hat, teste ich, indem ich die welche mir zugewiesen wurde (192.168.113.19) in die url eingebe.
 
+![](https://github.com/maksim304/M300/blob/master/LB3/img/wordpress-hallo%20welt.PNG)
+
