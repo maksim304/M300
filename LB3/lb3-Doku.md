@@ -1,1 +1,13 @@
-# Modul 300 - Lb3 Dokumentation
+# Lb3 Dokumentation - Modul 300
+
+## K3
+
+Ich habe den bestehenden Docker-Container kombiniert, als Backend und Frontend als Desktop-App und das Volumen zur persistenten eingerichtet, indem ich eine Verbindung zwischen der VM und Worpress hergestellt habe.
+
+Um überhaupt zugriff auf den Server zu haben, welcher von der TBZ zur verfügung gestellt wurde, musste ich zuerst Wireguard einrichten. Danach konnte ich über Git-Bash auf die VM zugreifen, auf welcher Docker bereits installiert war.
+
+Als nächstes habe ich einen MySQL-Container ausgeführt. Dies habe ich mit diesem Befehl gemacht:
+sudo docker run --name my-db -e MYSQL_ROOT_PASSWORD=db-password -d mysql
+
+Danach habe ich einen Wordpress-Container ausgeführt und zwar mit folgendem Befehl.
+sudo docker run --name my-wordpress -p 8080:80 --link my-db:mysql -d wordpress
