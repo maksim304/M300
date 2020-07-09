@@ -1,6 +1,6 @@
 # Lb3 Dokumentation - Modul 300
 
-# Einleitung
+## Einleitung
 
 Zuerst musste ich mich mit Docker auseinandersetzen, da ich noch nie zuvor mit Docker gearbeitet habe. Als ich es dan im Griff hatte, entschied ich mich mithilfe von Wordpress, zwischen einem Webserver-Container und einem Db-Container eine Verbindung erstellt, damit der Webserver Zugriff auf die Db hat.
 
@@ -21,10 +21,10 @@ sudo docker run --name my-wordpress -p 8080:80 --link my-db:mysql -d wordpress
 Nachdem ich diese zwei command ausgeführt habe, musste ich auf diesen Link http://192.168.113.19:8080 gehen, um die installation zu beenden. 
 
 
-## Test
+#### Test
 
-Ob alles funktioniert hat, teste ich, indem ich die welche mir zugewiesen wurde (192.168.113.19) in die url eingebe.
+Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewiesen wurdene IP (192.168.113.19) in die url eingebe.
 
 ![](https://github.com/maksim304/M300/blob/master/LB3/img/wordpress-hallo%20welt.PNG)
 
- 
+ ### a
