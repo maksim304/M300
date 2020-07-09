@@ -33,4 +33,4 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewi
 
  Bei der Service-Überwachung habe ich mich für das Docker Tool 'cAdvisor' entschieden, da es mir einen grafischen Überblick über den Ressourceneinsatz und Performance-Metriken von Containern anzeigt.
 
- ![](https://github.com/maksim304/M300/blob/master/LB3/img/wordpress-hallo%20welt.PNG)
+![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor1.PNG) ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor2.PNG) 
