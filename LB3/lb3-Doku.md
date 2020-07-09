@@ -16,9 +16,9 @@ sudo docker run --name my-db -e MYSQL_ROOT_PASSWORD=db-password -d mysql
 
 Danach habe ich einen Wordpress-Container ausgeführt und zwar mit folgendem Befehl:
 
-
+```Ruby
 sudo docker run --name my-wordpress -p 8080:80 --link my-db:mysql -d wordpress
-
+```
 
 Nachdem ich diese zwei command ausgeführt habe, musste ich auf diesen Link http://192.168.113.19:8080 gehen, um die installation zu beenden. 
 
