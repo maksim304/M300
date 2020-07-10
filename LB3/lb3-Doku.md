@@ -52,7 +52,7 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewi
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor1.PNG)
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor2.PNG)
 
-Ich haette
+Ich hatte Probleme mit dem Forwarding des Ports, nacher klappte es aber.
 
 ## Fazit
 
