@@ -59,6 +59,9 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die mir zugewieseme I
 
 Ich hatte Probleme mit dem Forwarding des Ports, nacher klappte es aber.
 
+#### Meine Container
+ ![](https://github.com/maksim304/M300/blob/master/LB3/img/conatiner.PNG)
+
 ## Fazit
 
 Ich fand es gut das wir die möglichkeit hatten, um Docker kennezulernen. Auch wenn ich in Zukunft höchstwahrscheinlich nie wieder mit Docker arbeiten werde, emfand ich es als wichtige Erfahrung.
