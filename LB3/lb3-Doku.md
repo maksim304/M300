@@ -10,10 +10,11 @@ Zuerst musste ich mich mit Docker auseinandersetzen, da ich noch nie zuvor mit D
 | `docker run hello-world`            | Ist der Befehl zum Starten neuer Container. |
 | `docker ps`              | Gibt einen Überblick über die aktuellen Container |
 | `docker stop`            | Stoppt den Docker-Container                                 |
-| `docker rm`         | Löscht den Docker-Container                   |
+| `docker rm`         | Entfernt den Docker-Container                   |
 | `docker image ls`             | Gibt eine Liste lokaler Images aus                  |
 | `docker rm [name]`          | Löscht den Docker-Container                                |
-| `docker start [id]`            | Startet den Docker-Container                           |
+| `docker start [id]`            | Startet den Docker-Container (Daten bleiben erhalten)                          |
+| `docker top`            | Gibt Informationen zu den laufenden Prozessen in einem angegebenen Container aus.                       |
 
 
 ### Kompetenz 3
