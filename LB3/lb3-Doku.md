@@ -34,7 +34,7 @@ Nachdem ich diese zwei command ausgeführt habe, musste ich auf diesen Link http
 
 #### Test
 
-Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewiesen wurdene IP (192.168.113.19) in die url eingebe.
+Ob alles funktioniert hat, habe ich so getestet, indem ich die mir zugewieseme IP (192.168.113.19) in die url eingebe.
 
 ![](https://github.com/maksim304/M300/blob/master/LB3/img/wordpress-hallo%20welt.PNG)
 
@@ -51,6 +51,7 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewi
 
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor1.PNG)
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor2.PNG)
+
 
 Ich hatte Probleme mit dem Forwarding des Ports, nacher klappte es aber.
 
