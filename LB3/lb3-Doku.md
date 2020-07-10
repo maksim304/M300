@@ -5,6 +5,15 @@
 Zuerst musste ich mich mit Docker auseinandersetzen, da ich noch nie zuvor mit Docker gearbeitet habe. Als ich es dan im Griff hatte, entschied ich mich mithilfe von Wordpress, zwischen einem Webserver-Container und einem Db-Container eine Verbindung erstellt, damit der Webserver Zugriff auf die Db hat.
 
 ### Wichtigste Befehle
+| Befehl                    | Beschreibung                                                      |
+| ------------------------- | ----------------------------------------------------------------- | 
+| `docker run hello-world`            | Ist der Befehl zum Starten neuer Container. |
+| `docker ps`              | Gibt einen Überblick über die aktuellen Container |
+| `docker image ls`             | Gibt eine Liste lokaler Images aus                  |
+| `docker rm [name]`          | Löscht den Docker-Container                                |
+| `docker start [id]`            | Startet den Docker-Container                           |
+| `docker stop`            | Stoppt den Docker-Container                                 |
+| `docker kill`         | Killt den Docker-Container                   |
 
 ### Kompetenz 3
 
@@ -31,7 +40,11 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewi
 
  ### Kompetenz 4
 
- Bei der Service-Überwachung habe ich mich für das Docker Tool 'cAdvisor' entschieden, da es mir einen grafischen Überblick über den Ressourceneinsatz und Performance-Metriken von Containern anzeigt.
+ Bei der Service-Überwachung habe ich mich für das Docker Tool 'cAdvisor' entschieden, da es mir einen grafischen Überblick über den Ressourceneinsatz und Performance-Metriken von Containern anzeigt. Den 'cAdvisor' brachte ich mit folgendem Befehl zum laufen;
+
+ ```Ruby
+ docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8181:8080 google/cadvisor:latest
+ ```
  
 
  So sieht das ganze dann aus:
@@ -39,6 +52,7 @@ Ob alles funktioniert hat, habe ich so getestet, indem ich die welche mir zugewi
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor1.PNG)
  ![](https://github.com/maksim304/M300/blob/master/LB3/img/cadvisor2.PNG)
 
+Ich haette
 
 ## Fazit
 
